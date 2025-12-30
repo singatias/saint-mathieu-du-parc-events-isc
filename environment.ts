@@ -5,7 +5,8 @@ interface IEnvironment {
 }
 
 export const environment: IEnvironment = {
-    driver_path: './chromedriver/chromedriver-win64/chromedriver.exe',
+    year: 2026,
+    driver_path: './chromedriver/mac_arm-143.0.7499.169/chromedriver-mac-arm64/chromedriver',
     // https://www.npmjs.com/package/node-cron
     // schedule: '* * * * *'
 };
